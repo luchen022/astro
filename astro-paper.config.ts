@@ -3,12 +3,12 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://blog.lca.de5.net/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
+    title: "路宸的博客",
+    description: "记录技术、学习与生活。",
     author: "路宸",
     profile: "https://satna.ing",
     ogImage: "default-og.jpg",
-    lang: "en",
+    lang: "zh-cn",
     timezone: "Asia/Shanghai",
     dir: "ltr",
   },
@@ -24,7 +24,7 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/luchen022/astro/edit/main/",
     },
     search: "pagefind",
   },
